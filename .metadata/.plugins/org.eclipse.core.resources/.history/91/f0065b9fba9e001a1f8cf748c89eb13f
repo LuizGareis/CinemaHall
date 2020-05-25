@@ -1,0 +1,19 @@
+package com.cimenahall.models;
+
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public enum Status {
+	
+	PENDING(1, "Pending"),
+	CONFIRMED(2, "Confirmed");
+	
+	private Integer cod;
+	private String desc;
+	
+//	private Status(Integer cod, String desc) {
+//		// TODO Auto-generated constructor stub
+//	}
+	
+	
+}

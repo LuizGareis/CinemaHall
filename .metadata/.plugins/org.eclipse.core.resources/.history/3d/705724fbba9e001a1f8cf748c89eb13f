@@ -1,0 +1,5 @@
+package com.cimenahall.repository;
+
+public class BookRepository {
+
+}

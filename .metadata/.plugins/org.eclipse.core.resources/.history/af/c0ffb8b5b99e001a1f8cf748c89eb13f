@@ -1,0 +1,5 @@
+package com.cimenahall.models;
+
+public class User {
+
+}

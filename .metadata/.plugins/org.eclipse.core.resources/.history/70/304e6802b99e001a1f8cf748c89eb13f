@@ -1,0 +1,8 @@
+package com.cimenahall.models;
+
+import java.io.Serializable;
+
+public class Book implements Serializable{
+	
+	
+}

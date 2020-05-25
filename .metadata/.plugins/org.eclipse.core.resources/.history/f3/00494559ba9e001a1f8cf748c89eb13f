@@ -1,0 +1,18 @@
+package com.cimenahall.models;
+
+public enum Role {
+
+	ADMIN(1, "Admin"),
+	MANAGER(2, "Manager"),
+	VIEWER(3, "Viewer"),
+	TICKET_SELLER(4, "Ticket Seller");
+	
+	private Integer cod;
+	
+	private String desc;
+	
+	private Role(Integer cod, String desc) {
+		this.cod = cod;
+		this.desc = desc;
+	}
+}

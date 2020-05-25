@@ -1,0 +1,27 @@
+package com.cimenahall.models;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Payment implements Serializable{/**
+	 * 
+	 */
+	private static final long serialVersionUID = 742097491487106799L;
+
+	private Long id;
+	
+	private Book book;
+	
+	private Date date;
+	
+	private String transactionNumber;
+	
+	private Status status;
+	
+}

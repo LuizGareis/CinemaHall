@@ -1,0 +1,31 @@
+package com.cimenahall.models;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public abstract class User implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5201029483577222995L;
+
+	private Long id;
+	
+	private String userName;
+	
+	private String password;
+	
+	private String email;
+	
+	private String address;
+	
+	private String name;
+	
+	private Role role;
+}
